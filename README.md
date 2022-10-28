@@ -1,6 +1,6 @@
 # CD_UD02_Tarea4
 
-# Boletín Tarea UD02. Fork y Pull Request
+# Boletín Tarea UD02. Fork y Pull Request.
 
 ## Para qué es este repo?
 
