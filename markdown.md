@@ -1,52 +1,111 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Esta herramienta fue creada en 2004 por John Gruber, y se distribuye de manera gratuita bajo una licencia BSD.
 
-## Tabla de contenido
+Aunque en realidad Markdown también se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
 
-Generar Índice en Markdown 
+De cara al usuario final no hay ninguna diferencia, por ejemplo este artículo acerca de cómo funciona wise está escrito en Markdown, y sin embargo ves que está perfectamente formateado.
+
+
+
+1. Titulos
+
+2. Cursivas
+
+3. Negrilla
+
+4. Vinetas
+
+5. Párrafos y saltos de línea
+
+6. Insertar imagenes
+
+7. Insertar enlaces
+
+8. Hacer anclaje
+
+9. Insertar una linea de codigo
+
+10. Insertar tablas
+
+11. Editores en Markdown 
+
+12. Otras referencias sobre Markdown
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+#Titulo 1
+
+##Titulo 2
+
+###Titulo 3 
+
+####Titulo4
+
+#####Titulo 5
 
 ### Cursivas
 
-Frase en cursiva 
+*frase en cursiva*
 
 ### Negrilla
 
-Frase en negrita
+**Frase en negrita**
 
 ### Vinetas
+1. Elemento 1
 
-Lista numerada
-Lista no numerada
+2. Elemento 2
+
+3. Elemento 3
+
+4. Elemento 4
+
+5. Elemento 5
+
+
+
+- Elemento 1
+
+- Elemento 2
+
+- Elemento 3
+
+- Elemento 4
+
+- Elemento 5
+
+
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Parrafo 1
+
+Parrafo 2
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![Imagen](/imagenes/markdown-cheatsheet.webpCD)
 
 ### Insertar enlaces
 
-Insertar un enlace 
+[Enlace](#https://markdown.es/sintaxis-markdown/)
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Anclaje](#titulos)
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+'Class HelloWorld{
+    public sttic void main}'
 
 ### Insertar tablas
 
-Insertar una tabla 
+|Columna 1|Colunmna 2|Columna 3|
+
+
 
 ### Editores en Markdown 
 
