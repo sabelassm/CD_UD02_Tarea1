@@ -5,7 +5,15 @@ Este es mi archivo markdown
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+|1|2|3|4|5|
+|-|-|-|-|-|
+|a|b|c|e|f|
+
+**Índice**   
+1. [Primer apartado](#id1)
+2. [Segundo apartado](#id2)
+## Primer apartado<a name="id1"></a>
+## Segundo apartado<a name="id2"></a>
 
 ### Titulos 
 
