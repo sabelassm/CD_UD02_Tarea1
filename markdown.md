@@ -104,14 +104,17 @@ Parrafo 2
 ### Insertar tablas
 
 |Columna 1|Colunmna 2|Columna 3|
+|---------|----------|---------|
+|Fila 2   |Fila 3    |Fila 3   |
+
 
 
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+[Enlaces a editores en Markdown ](#https://obsidian.md/)
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
+[Referencias sobre markdown ](#https://www.sublimetext.com/)
 
