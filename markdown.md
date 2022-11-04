@@ -75,7 +75,7 @@ Al igual que sucede con HTML, Markdown no soporta dobles líneas en blanco, así
 
 ### Insertar una linea de codigo
 
-`System.out.print("Hola buenas tardes")`
+`System.out.print("Hola buenas tardes");`
 
 ### Insertar tablas
 
