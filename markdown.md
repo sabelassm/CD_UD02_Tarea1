@@ -1,32 +1,46 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Markdown es un lenguaje de marcado ligero que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida.
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+Índice
+1. [Negrilla](#negrilla)
+2. [Cursivas](#cursivas)
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+# h1
+## h2
+### h3
+#### h4
+##### h5
 
 ### Cursivas
 
-Frase en cursiva 
+*Frase en cursiva* 
 
 ### Negrilla
 
-Frase en negrita
+**Frase en negrita**
 
 ### Vinetas
 
 Lista numerada
+1. Primero
+2. Segundo
+3. Tercero
+
 Lista no numerada
+* Primero
+* Segundo
+* Tercero
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Párrafo
+
 
 ### Insertar imagenes
 
@@ -55,4 +69,3 @@ Enlaces a editores en Markdown
 ### Otras referencias sobre Markdown
 
 Referencias sobre markdown 
-
