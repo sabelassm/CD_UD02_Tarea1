@@ -1,58 +1,87 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Este es mi archivo markdown
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+|1|2|3|4|5|
+|-|-|-|-|-|
+|a|b|c|e|f|
 
-### Titulos 
+**Índice**   
+1. [Primer apartado](#id1)
+2. [Segundo apartado](#id2)
+## Primer apartado<a name="id1"></a>
+## Segundo apartado<a name="id2"></a>
 
-Intertar hasta 5 niveles de títulos 
+### Titulos
+
+# Encabezado 1
+## Encabezado 2
+### Encabezado 3
+#### Encabezado 4
+##### Encabezado 5
 
 ### Cursivas
 
-Frase en cursiva 
+*Estoy escribiendo en cursiva*
 
 ### Negrilla
 
-Frase en negrita
+**Estoy escribiendo en negrita**
 
 ### Vinetas
 
 Lista numerada
+1. Elemento 1
+2. Elemento 2
+3. Elemento 3
+   
 Lista no numerada
+- Elemento 1
+- Elemento 2
+- Elemento 3
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+parrafo 1  
+y parrafo 2
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![Imagen de ejemplo](https://static.wikia.nocookie.net/memes-pedia/images/2/25/Amogus1.png/revision/latest?cb=20210412220457&path-prefix=es)
 
 ### Insertar enlaces
 
-Insertar un enlace 
+<https://github.com/a22gabrielmv/CD_UD02_Tarea1/blob/gabriel/markdown.md> 
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Anclaje a tabla](#tabla-de-contenido)
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+`System.out.println("Java")`  
+
+`create table frasedia ( f_id INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY ,`
+
+`document.forms[0].mireloj.value`
+
+`<p>esto es un parrafo en html</p>`
 
 ### Insertar tablas
 
-Insertar una tabla 
+| TITULO1| TITULO2|
+| ----- | ---- |
+| CONTENIDO COLUMNA 1 | CONTENIDO COLUMNA 2 |
+
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+<https://markdown.es/editores-markdown/>
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
+<https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github>
 
