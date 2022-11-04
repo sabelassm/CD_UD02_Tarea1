@@ -5,24 +5,39 @@ Insertar descripción de Markdown
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+**Índice**
+1. [Primer apartado](#id1)
+2. [Segundo apartado](#id2)
+<div id='id1' />
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+#Título
+##Título
+###Título
+####Título
+#####Título
+######Título
 
 ### Cursivas
 
-Frase en cursiva 
+*Cursiva*
 
 ### Negrilla
 
-Frase en negrita
+**Negrita**
 
 ### Vinetas
 
-Lista numerada
+Lista enumerada
+1. Lista
+2. Lista
+3. Lista
+
 Lista no numerada
++ Lista
++ Lista
++ Lista
 
 ## Párrafos y saltos de línea
 
