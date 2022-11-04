@@ -21,3 +21,13 @@ tabla:
 11 - Cabra 
 
  */
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("************************************************");
+      System.out.println("************SIGNO DEL ZODIACO CHINO*************");
+      System.out.println("************************************************");
+      //Creación das variables
+      int anoNacemento;
+      
+    }
+  }
