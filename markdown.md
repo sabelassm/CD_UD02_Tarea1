@@ -1,40 +1,49 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Markdown es un lenguaje de marcado ligero creado por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+# Título1
+## Título2
+### Título3
+#### Título4
+##### Título5
 
 ### Cursivas
 
-Frase en cursiva 
+*Frase en cursiva*
 
 ### Negrilla
 
-Frase en negrita
+**Frase en negrita**
 
 ### Vinetas
 
-Lista numerada
-Lista no numerada
+1. Elemento 1
+2. Elemento 2
+3. Elemento 3
+
+- Elemento 1
+- Elemento 2
+- Elemento 3
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Párrafo con <br> salto de línea.
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![Nissan Skyline](nissan_skyline.jpg)
 
 ### Insertar enlaces
 
-Insertar un enlace 
+[Clásicos legendarios: Nissan Skyline GT-R R34 1999](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.motor1.com%2Fnews%2F183448%2Fnissan-skyline-gtr-r34-1999%2F&psig=AOvVaw3UxCM6Z5PKyRGwLEWBfsPo&ust=1667651353252000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMjoxcfDlPsCFQAAAAAdAAAAABAI)
 
 ### Hacer anclaje
 
@@ -55,4 +64,3 @@ Enlaces a editores en Markdown
 ### Otras referencias sobre Markdown
 
 Referencias sobre markdown 
-
