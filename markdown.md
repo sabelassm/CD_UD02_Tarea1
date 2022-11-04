@@ -4,7 +4,7 @@
 Este es mi archivo markdown
 
 ## Tabla de contenido
-Tabla
+
 |1|2|3|4|5|
 |-|-|-|-|-|
 |a|b|c|e|f|
@@ -58,7 +58,7 @@ y parrafo 2
 
 ### Hacer anclaje
 
-[Anclaje a la tabla](#Tabla)
+[Anclaje a tabla](#tabla-de-contenido)
 
 ### Insertar una linea de codigo
 
