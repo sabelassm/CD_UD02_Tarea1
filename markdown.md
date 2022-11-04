@@ -1,32 +1,44 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Markdown es un lenguaje de texto plano sin formato muy útil para escribir, por ejemplo, documentación
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+Índice  
+[Hacer anclaje](#hacer-anclaje)   
+[Insertar imágenes](#insertar-imagenes)  
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+# h1  
+## h2  
+### h3  
+#### h4  
+#### h5  
 
 ### Cursivas
 
-Frase en cursiva 
+*Frase en cursiva*
 
 ### Negrilla
 
-Frase en negrita
+**Frase en negrita**
 
 ### Vinetas
 
-Lista numerada
-Lista no numerada
+1. ord1
+2. ord2
+3. ord3
+
+* unor1
+* unor2
+* unor3
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Insertar un (2 espacios->)  
+salto de línea :)
 
 ### Insertar imagenes
 
