@@ -21,3 +21,27 @@ tabla:
 11 - Cabra 
 
  */
+
+import java.util.Scanner;
+
+
+public class ejercicio1 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Introduce tu año de nacimiento: ");
+
+        int ano=sc.nextInt();
+
+        int signo=ano%12;
+
+        System.out.println("Tu signo del zodíaco chino es: "+ animales[signo]);
+        
+
+    }
+
+    final static String [] animales={"Mono","Gallo","Perro","Cerdo","Rata ","Buey","Tigre","Conejo","Dragón","Serepiente","Caballo","Cabra"};
+  
+}
