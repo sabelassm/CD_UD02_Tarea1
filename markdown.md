@@ -65,11 +65,41 @@ Párrafo con <br> salto de línea.
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Anclaje de las tablas](#insertar-tablas) 
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+**Java**
+```java
+public class Example {
+  public static void main(System[] args) {
+      System.out.println("Hello World!");
+  }
+}
+```
+**PHP**
+```PHP
+<?php echo 'Hello, World!'; ?>
+```
+**JavaScript**
+```JavaScript
+alert('Hello, World!');
+```
+**HTML**
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+</body>
+</html>
+```
 
 ### Insertar tablas
 
