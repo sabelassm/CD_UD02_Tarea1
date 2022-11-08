@@ -12,15 +12,16 @@ Generar Índice en Markdown
 **Índice**
 1. [Primer apartado](#id1)
 2. [Segundo apartado](#id2)
-<div id='id1' />
+<div id='id1' >
 ## Primer apartado  
 Texto del primer apartado
-<div id='id2' />
+<div id='id2' >
 ## Segundo apartado
 Texto del segundo apartado
 
 
 ### Titulos------------------
+
 
 Intertar hasta 5 niveles de títulos
 
@@ -70,12 +71,12 @@ blablabla blablabla
 
 Insertar una imagen 
 
-![alt text](pez.png)
+![no funsiona](/img/download.png)
 
 
 ### Insertar enlaces------------------
 
-Insertar un enlace 
+[https://draculatheme.com/]
 
 ### Hacer anclaje------------------
 
