@@ -7,17 +7,29 @@ dividir el año de nacimiento entre 12. El resto, entre
 0 y 11, está asociado a un signo según la siguiente
 tabla:
 
-0 -Mono
-1- Gallo
-2 -Perro
-2 - Cerdo
-4 -Rata 
-5- Buey 
-6 - Tigre
-7 - Conejo
-8 - Dragón
-9 -Serepiente
-10- Caballo
-11 - Cabra 
+Mono
+Gallo
+Perro
+Cerdo
+Rata 
+Buey 
+Tigre
+Conejo
+Dragón
+Serepiente
+Caballo
+Cabra 
 
  */
+import java.util.Scanner;
+ public class ejercicio1{
+    public static void main(String[]args){
+        System.out.println("Introduce tu año de nacimiento: ");
+        Scanner sc=new Scanner(System.in);
+        int ano=sc.nextInt();
+        int zodiaco=ano%12;
+        System.out.println("Tu horoscopo chino es:"+chinos[zodiaco]);
+
+    }
+    final static String[]chinos={"Mono","Gallo","Perro","Cerdo","Rata ","Buey ","Tigre","Conejo","Dragón","Serepiente","Caballo","Cabra"};
+}
