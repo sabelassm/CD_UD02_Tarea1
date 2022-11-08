@@ -12,12 +12,12 @@ Insertar descripción de Markdown
 
 ### Titulos 
 
-#Título
-##Título
-###Título
-####Título
-#####Título
-######Título
+# Título
+## Título
+### Título
+#### Título
+##### Título
+###### Título
 
 ### Cursivas
 
@@ -45,11 +45,11 @@ Insertar un
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![NO](/img/barco.jpg)
 
 ### Insertar enlaces
 
-Insertar un enlace 
+[https://datosgobar.github.io/portal-andino/markdown-guide/]
 
 ### Hacer anclaje
 
