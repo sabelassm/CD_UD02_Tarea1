@@ -1,58 +1,117 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Markdown es un lenguaje de texto plano sin formato muy útil para escribir, por ejemplo, documentación
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+Índice  
+[Hacer anclaje](#hacer-anclaje)   
+[Insertar imágenes](#insertar-imagenes)  
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+# h1  
+## h2  
+### h3  
+#### h4  
+#### h5  
 
 ### Cursivas
 
-Frase en cursiva 
+*Frase en cursiva*
 
 ### Negrilla
 
-Frase en negrita
+**Frase en negrita**
 
 ### Vinetas
 
-Lista numerada
-Lista no numerada
+1. ord1
+2. ord2
+3. ord3
+
+* unor1
+* unor2
+* unor3
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Para insertar un (2 espacios->)  
+salto de línea :)
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![Langosta Jesucristo](/imaxes/pincitas.png)
+
 
 ### Insertar enlaces
 
-Insertar un enlace 
+[Enlace a un creador de imaxes con IA](https://openai.com/dall-e-2/)
+
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Tabla de contenidos](#tabla-de-contenido)
+
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+~~~
+public class HolaMundo {
+
+	public static void main(String[] args) {		
+		System.out.println("Hola Mundo");
+	}
+
+}
+~~~
+
+~~~
+  <?php
+ 
+ echo "¡Hola mundo!";
+ 
+  ?>
+~~~
+
+~~~
+<script>
+    document.write("Hola Mundo");
+</script>
+~~~
+
+~~~
+<html>
+  <head>
+    <title>Mi primer codigo JavaScript</title>
+  </head>
+  <body>
+    <h1>Mi primer código JavaScript</h1>
+
+    <script>
+      document.write("Hola Mundo");
+    </script>
+
+  </body>
+</html>
+~~~
 
 ### Insertar tablas
 
-Insertar una tabla 
+| Columna 1 |Columna 2 |
+| ----------- |----------- |
+| Ejemplo 1  | Ejemplo 1.2 |
+| Ejemplo 2  | Ejemplo 2.1 |
+
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+[Información sobre algúns editores de markdown](https://markdown.es/editores-markdown/#Editores_Markdown_para_Windows)
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
+[Páxina oficial de Markdown en español](https://markdown.es/)
+
+[Markdown en Freecodecamp](https://www.freecodecamp.org/news/tag/markdown/)
 
