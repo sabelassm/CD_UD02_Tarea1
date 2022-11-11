@@ -1,7 +1,7 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Markdown es un lenguaje de marcado ligero creado por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida.
 
 ## Tabla de contenido
 
@@ -41,7 +41,8 @@ Lista no numerada
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Esto es un  
+salto de linea
 
 ### Insertar imagenes
 
@@ -53,21 +54,24 @@ Insertar un
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Anclaje a tablas](#insertar-tablas)
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+`public class codigo{}` 
 
 ### Insertar tablas
 
-Insertar una tabla 
+|Tabla|Tabla|
+|-----|-----|
+|Aquí|Aquí|
+|----|----|
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+[https://github.com/marktext/marktext]
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
+[https://learn.microsoft.com/es-es/contribute/markdown-reference]
 
