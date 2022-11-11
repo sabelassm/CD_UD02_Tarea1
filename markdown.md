@@ -1,7 +1,7 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Markdown es un lenguaje de marcado ligero creado por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
 
 ## Tabla de contenido
 
@@ -9,50 +9,77 @@ Generar Índice en Markdown
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+#Título 1
+##Título 2
+###Título 3
+#####Título 4
+######Título 5
 
 ### Cursivas
 
-Frase en cursiva 
+*Frase en cursiva*
 
 ### Negrilla
 
-Frase en negrita
+**Texto en negrita**
 
 ### Vinetas
 
 Lista numerada
+
+1. Elemento 1
+2. Elemento 2
+3. Elemento 3
+   
 Lista no numerada
+
+  - Elemento 1
+  - Elemento 2
+  - Elemento 3
+
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Esto es un texto
+mostrando los
+párrafos y los
+saltos de línea.
+
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![Imagen Markdown](/markdown.md)
 
 ### Insertar enlaces
 
-Insertar un enlace 
+[Google](https://www.google.es)
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Tablas](###Tablas)
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+```java
+public class HolaMundo{
+    public static void main(String[] args){
+        System.out.println("Hola Mundo");
+    }
+}
+```
 
 ### Insertar tablas
 
-Insertar una tabla 
+| Primera Columna | Segunda |
+| -- | -- |
+| 11 | 12|
+| 21 | 22 |
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+[IA Writter](https://ia.net/writer/es) 
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
+[https://markdown.es/sintaxis-markdown/#parrafos](https://markdown.es/sintaxis-markdown/#parrafos)
 
