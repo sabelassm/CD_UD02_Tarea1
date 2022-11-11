@@ -82,19 +82,31 @@ Insertar una imagen
 
 Anclar el apartado de tablas 
 
+[Anclaje a tablas](#insertar-tablas)
+
 ### Insertar una linea de codigo------------------
 
 Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+
+`public class hola{}`
 
 ### Insertar tablas------------------
 
 Insertar una tabla 
 
+| Hola       | Hola      |
+| ---------- | --------- |
+| blablabla  | blablabla |
+| ---------- | --------  |
+
 ### Editores en Markdown------------------
 
 Enlaces a editores en Markdown 
+
+[https://markdown.es/editores-markdown/]
 
 ### Otras referencias sobre Markdown------------------
 
 Referencias sobre markdown 
 
+[https://markdown.es/sintaxis-markdown/]
