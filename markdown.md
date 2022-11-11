@@ -1,58 +1,110 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Markdown es un lenguaje de marcado ligero que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida.
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+Índice
+1. [Negrilla](#negrilla)
+2. [Cursivas](#cursivas)
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+# h1
+## h2
+### h3
+#### h4
+##### h5
 
 ### Cursivas
 
-Frase en cursiva 
+*Frase en cursiva* 
 
 ### Negrilla
 
-Frase en negrita
+**Frase en negrita**
 
 ### Vinetas
 
 Lista numerada
+1. Primero
+2. Segundo
+3. Tercero
+
 Lista no numerada
+* Primero
+* Segundo
+* Tercero
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Para insertar salto de línea se ponen 2 espacios en blanco  
+Este es el salto de línea
+
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![Mono con clarinete](/images/dalle1.png)
 
 ### Insertar enlaces
 
-Insertar un enlace 
+[Enlace a Google](www.google.com)
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Tabla de contenidos](#tabla-de-contenido)
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+Java
+~~~
+public class HolaMundo {
+
+	public static void main(String[] args) {		
+		System.out.println("Hola Mundo");
+	}
+
+}
+~~~
+
+PHP
+~~~
+ <?php echo '<p>Hola Mundo</p>'; ?>
+~~~
+
+Javascript
+~~~
+<script>
+  document.write("Hola Mundo");
+</script>
+~~~
+
+HTML
+~~~
+<html>
+  <head>
+    <title>Mi primer codigo JavaScript</title>
+  </head>
+  <body>
+    <h1>Mi primer código JavaScript</h1>
+  </body>
+</html>
+~~~
+
 
 ### Insertar tablas
 
-Insertar una tabla 
+|Columna 1|Columna 2|
+|---------|---------|
+|Ejemplo 1|Ejemplo 2|
+|Ejemplo 3|Ejemplo 4|
+
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+ [Enlace a varios editores en Markdown](https://markdown.es/editores-markdown/)
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
-
+[Enlace a la página oficial de Markdown](https://markdown.es/)
