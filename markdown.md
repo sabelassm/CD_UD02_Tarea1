@@ -48,7 +48,7 @@ con salto de lineas incluídos.
 
 ### Insertar imagenes
 
-![Gabe](https://www.google.com/url?sa=i&url=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fpeople%2Fgabe-newell&psig=AOvVaw0DZet9U5AX6u1wrBI-rPWQ&ust=1667654383903000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJi33OvOlPsCFQAAAAAdAAAAABAD)
+![Gabe](https://static.wikia.nocookie.net/halflife7283/images/1/18/GabeN.jpg/revision/latest?cb=20200524021323&path-prefix=es)
 
 ### Insertar enlaces
 
