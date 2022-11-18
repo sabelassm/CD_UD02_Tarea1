@@ -79,9 +79,7 @@ A medida que vayas trabajando, debes ir subiendo el código que generes al repos
 
 ## Entrega de la tarea
 
-Una vez termines todas las tareas asociadas a la unidad debes subir a la tarea del mestre la url del repositorio que hayáis generado y  realizar un **pull request** al repositorio original.  
-
-## Documenta tu trabajo
+Una vez termines todas las tareas asociadas a la unidad debes subir a la tarea
 
 El repo contiene un fichero nombrada como `doc.md` en el que puedes introducir comentarios sobre la tarea en el caso de que sea necesario. Para documentar se deberá usar [markdown](https://markdown.es/). 
 
