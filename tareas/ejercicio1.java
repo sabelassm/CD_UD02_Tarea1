@@ -22,7 +22,6 @@ tabla:
 
  */
 
-
 import java.util.Scanner;
 
 public class ejercicio1 {
@@ -69,7 +68,5 @@ public class ejercicio1 {
             case 11:
                 System.out.println("Eres unha cabra");
         }
-
-    }
 }
-
+}
