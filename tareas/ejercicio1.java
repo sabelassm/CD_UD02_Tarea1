@@ -1,4 +1,4 @@
-/*
+/* 
  * Signo del zodíaco
  * Crea que al introducir el año que naciste te devuelva
 tu signo del zodíaco chino.
@@ -20,6 +20,7 @@ Serepiente
 Caballo
 Cabra 
 
+
  */
 import java.util.Scanner;
  public class ejercicio1{
@@ -32,4 +33,5 @@ import java.util.Scanner;
 
     }
     final static String[]chinos={"Mono","Gallo","Perro","Cerdo","Rata ","Buey ","Tigre","Conejo","Dragón","Serepiente","Caballo","Cabra"};
+    
 }
