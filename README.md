@@ -46,7 +46,7 @@ Cada vez que retomes tu trabajo asegúrate tener la última versión de las espe
 
     `git remote add profesor <url-repoProfesor>`
     En este caso: 
-    `git remote add profesor  https://github.com/sabelassm/CD_UD02_Tarea1`
+    `git remote add profesor  git@github.com:sabelassm/CD_UD02_Tarea1.git`
 
 2. (*Cada vez que retomes trabajo*) Revisa novedades y obtenlas del repo del profesor
 
