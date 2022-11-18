@@ -6,10 +6,10 @@ public class Ejercicio9{
         System.out.println("Introduce un número: ");
 
         String num = sc.nextLine().trim();
-        int leng = num.length();
+
         String fin = "";
-        for(int i=leng-1; i<=0; i--){
-            fin = fin + num.charAt(i);
+        for(int i = 0; i<num.length(); i++){
+            fin =  num.charAt(i) + fin;
         }
         System.out.println(fin);
     }
