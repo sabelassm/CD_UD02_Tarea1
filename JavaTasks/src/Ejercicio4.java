@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio4{
+public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,8 +19,8 @@ public class Ejercicio4{
             case 2:
                 System.out.println("Dous");
                 break;
-            
-            case 3: 
+
+            case 3:
                 System.out.println("Tres");
                 break;
 
@@ -40,7 +40,7 @@ public class Ejercicio4{
                 System.out.println("Sete");
                 break;
 
-            case 8: 
+            case 8:
                 System.out.println("Oito");
                 break;
 

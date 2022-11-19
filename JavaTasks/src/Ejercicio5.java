@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio5{
+public class Ejercicio5 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -8,7 +8,7 @@ public class Ejercicio5{
         int dia = sc.nextInt();
 
         switch (dia) {
-            
+
             case 1:
                 System.out.println("Luns");
                 break;
@@ -16,8 +16,8 @@ public class Ejercicio5{
             case 2:
                 System.out.println("Martes");
                 break;
-            
-            case 3: 
+
+            case 3:
                 System.out.println("Mércores");
                 break;
 

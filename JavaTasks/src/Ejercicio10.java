@@ -3,44 +3,30 @@ import java.util.Scanner;
 public class Ejercicio10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-            boolean sair = false;
+        System.out.println("Introduce unha operacion no formato a b *");
+        String[] array = sc.nextLine().split(" ");
+        double a = Double.parseDouble(array[0]);
+        double b = Double.parseDouble(array[1]);
+        char c = array[2].charAt(0);
 
-            System.out.println("Introduce unha operacion tal que (a b *)");
-            String linea = sc.nextLine().trim();
-
-            do{
-            if (linea.length()!= 5){
-                System.out.println("Valores incorrectos, volveo a intentar :");
-                linea = sc.nextLine().trim();
-            }else{
-                sair =true;
-            }
-        }while(sair != true);
-        
-        int a = Character.getNumericValue(linea.charAt(0));
-        int b = Character.getNumericValue(linea.charAt(2));
-    
-        char c = linea.charAt(4);
         switch (c) {
+            case '*':
+                System.out.println(a * b);
+                break;
             case '+':
                 System.out.println(a + b);
                 break;
-            case '*':
-            System.out.println(a*b);
-                break;
-
             case '-':
-                System.out.println(a-b);
+                System.out.println(a - b);
                 break;
             case '/':
-                System.out.println(a/b);
+                System.out.println(a / b);
+                break;
 
             default:
-                System.out.println("O símbolo introducido non é válido");
+                System.out.println("Os valores introducidos son inválidos");
                 break;
         }
-       
-            //facelo con array que elimine whitespaces
-        
+
     }
 }
