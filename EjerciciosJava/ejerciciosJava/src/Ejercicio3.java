@@ -10,6 +10,8 @@ public class Ejercicio3 {
 
         int nota = sc.nextInt();
 
+        sc.close();
+
         if (nota < 5) {
 
             System.out.println("SUSPENSO");

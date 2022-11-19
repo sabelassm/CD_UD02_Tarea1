@@ -10,6 +10,8 @@ public class Ejercicio4 {
 
         int num = sc.nextInt();
 
+        sc.close();
+
         switch (num) {
 
             case 0:
