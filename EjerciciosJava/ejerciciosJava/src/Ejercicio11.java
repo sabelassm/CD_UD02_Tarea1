@@ -6,8 +6,6 @@ public class Ejercicio11 {
 
         Scanner sc = new Scanner(System.in);
 
-        int resultado = 0;
-
         System.out.print("Introduce un número ");
 
         Long num = sc.nextLong();
