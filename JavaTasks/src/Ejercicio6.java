@@ -21,5 +21,6 @@ public class Ejercicio6 {
             suma += i;
         }
         System.out.println(suma);
+        sc.close();
     }
 }

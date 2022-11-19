@@ -16,5 +16,6 @@ public class Ejercicio8 {
 
         } while (sair != 1);
         System.out.println(suma);
+        sc.close();
     }
 }

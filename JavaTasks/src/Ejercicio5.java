@@ -41,5 +41,6 @@ public class Ejercicio5 {
                 System.out.println("Valor non válido");
                 break;
         }
+        sc.close();
     }
 }

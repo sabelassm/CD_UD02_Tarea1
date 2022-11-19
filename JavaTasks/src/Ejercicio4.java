@@ -52,5 +52,6 @@ public class Ejercicio4 {
                 System.out.println("Outro");
                 break;
         }
+        sc.close();
     }
 }

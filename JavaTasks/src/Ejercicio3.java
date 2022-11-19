@@ -14,6 +14,6 @@ public class Ejercicio3 {
         } else {
             System.out.println("Nota inválida");
         }
-
+        sc.close();
     }
 }

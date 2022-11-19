@@ -12,5 +12,6 @@ public class Ejercicio9 {
             fin = num.charAt(i) + fin;
         }
         System.out.println(fin);
+        sc.close();
     }
 }

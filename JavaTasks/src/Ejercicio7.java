@@ -15,6 +15,7 @@ public class Ejercicio7 {
         } else {
             System.out.println("Erro: o valor debe ser superior a 1");
         }
+        sc.close();
 
     }
 }

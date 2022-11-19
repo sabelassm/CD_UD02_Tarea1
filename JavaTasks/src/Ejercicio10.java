@@ -27,6 +27,7 @@ public class Ejercicio10 {
                 System.out.println("Os valores introducidos son inválidos");
                 break;
         }
+        sc.close();
 
     }
 }

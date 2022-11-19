@@ -9,6 +9,6 @@ public class Ejercicio2 {
         float num2 = sc.nextFloat();
 
         System.out.println("A suma é " + (num1 + num2));
-
+        sc.close();
     }
 }
