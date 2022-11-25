@@ -9,10 +9,10 @@ public class Ejercicio11
         long num = teclado.nextLong();
         
         if(num%3==0){
-            System.out.println("Es multiplo");
+            System.out.println("Es multiplo de 3");
         }
         else{
-            System.out.println("No es multiplo");
+            System.out.println("No es multiplo de 3");
         }
 
         teclado.close();

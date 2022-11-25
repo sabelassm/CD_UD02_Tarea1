@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    ul>li*3
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    table.table-bordered>(thead>tr>th*2)+tbody>tr>td*10
+    <table class="table-bordered">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    h1.text-text-titulo{Hola mundo}
+    <h1 class="text-text-titulo">Hola mundo</h1>
+    
+    div>p{datos}
+    <div>
+        <p>datos</p>
+    </div>
+
+    div+p*4>span
+    <div></div>
+    <p><span></span></p>
+    <p><span></span></p>
+    <p><span></span></p>
+    <p><span></span></p>
+
+    div#hola.principal>p>section#seccion.seccion>h1{Hola mundo}
+    <div id="hola" class="principal">
+        <p>
+            <section id="seccion" class="seccion">
+                <h1>Hola mundo</h1>
+            </section>
+        </p>
+    </div>
+
+    ol{fuera}>li*4{dentro}
+    <ol>fuera
+        <li>dentro</li>
+        <li>dentro</li>
+        <li>dentro</li>
+        <li>dentro</li>
+    </ol>
+
+    p+div+p>div*2
+    <p></p>
+    <div></div>
+    <p>
+        <div></div>
+        <div></div>
+    </p>
+
+</body>
+</html>
