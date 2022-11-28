@@ -14,7 +14,9 @@ public class Ejercicio2 {
 
         int num2 = sc.nextInt();
 
-        System.out.print("Suma: " + num1 + num2);
+        sc.close();
+
+        System.out.print("Suma: " + (num1 + num2));
 
     }
 }

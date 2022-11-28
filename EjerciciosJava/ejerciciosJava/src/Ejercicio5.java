@@ -8,17 +8,17 @@ public class Ejercicio5 {
 
         System.out.print("Introduce número: ");
 
-
         System.out.println(getDiaSemana(sc.nextInt()));
 
+        sc.close();
 
     }
 
-    public static String getDiaSemana(int i){
-        
-        return dias[i-1];
+    public static String getDiaSemana(int i) {
+
+        return dias[i - 1];
 
     }
 
-    public final static String [] dias={"LUNES","MARTES","MIÉRCOLES","JUEVES","VIERNES","SÁBADO","DOMINGO"};
+    public final static String[] dias = { "LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO", "DOMINGO" };
 }
