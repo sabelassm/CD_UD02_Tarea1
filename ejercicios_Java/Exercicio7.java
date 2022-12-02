@@ -2,8 +2,6 @@ package ejercicios_Java;
 
 import java.util.Scanner;
 
-import org.xml.sax.SAXException;
-
 public class Exercicio7 {
 
     public static void main(String[] args) {

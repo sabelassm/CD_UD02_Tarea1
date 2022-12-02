@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    ul>li*3
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    table>(tr>th*2)+(tr>td*10)
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    h1.text.text-titulo{Ola mundo}
+    <h1 class="text text-titulo">Ola mundo</h1>
+
+    div>p{datos}*2
+    <div>
+        <p>datos</p>
+        <p>datos</p>
+    </div>
+
+    div(p>span)*4
+    <div></div>
+    <p><span></span></p>
+    <p><span></span></p>
+    <p><span></span></p>
+    <p><span></span></p>
+
+    div#hola.principal>p>section#seccion.seccion>h1
+    <div id="hola" class="principal">
+        <p>
+            <section id="seccion" class="seccion">
+                <h1></h1>
+            </section>
+        </p>
+    </div>
+
+    ol{fora}>li{dentro}*4
+    <ol>fora
+        <li>dentro</li>
+        <li>dentro</li>
+        <li>dentro</li>
+        <li>dentro</li>
+    </ol>
+
+    p+div+p>div>div
+    <p></p>
+    <div></div>
+    <p>
+        <div>
+            <div></div>
+        </div>
+    </p>
+</body>
+
+ul.lista>li*4>lorem10
+<ul class="lista">
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quae!</li>
+    <li>Vel placeat laborum possimus eius aliquam illo! Tempore, molestias hic.</li>
+    <li>At, numquam aliquid! Dolore id omnis natus consequatur architecto error?</li>
+    <li>Assumenda earum velit, magnam beatae rem quod facere voluptates fuga.</li>
+</ul>
+
+</html>
