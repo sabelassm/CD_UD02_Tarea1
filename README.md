@@ -33,8 +33,8 @@ git clone <url de tu fork>
 
 ### Ramas 
 
-Crea una rama con tu nombre y trabaja ahí los ejercicios que se proponen. Una vez que termines los ejercicios debes integrarlos en tu rama master
-Puedes crearte las ramas que necesites para el trabajo, pero en el momento de la entrega se tendrá en cuenta lo que haya en la rama **master**.
+Crea una rama con tu nombre y trabaja ahí los ejercicios que se proponen. Una vez que termines los ejercicios debes integrarlos en tu rama main.
+Puedes crearte las ramas que necesites para el trabajo, pero en el momento de la entrega se tendrá en cuenta lo que haya en la rama **main**.
 
 ### Revisa si se han producido actualizaciones en las especificaciones
 
