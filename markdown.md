@@ -41,9 +41,7 @@ Lista no numerada:
 ## Párrafos y saltos de línea
 
 Este texto todo  
-
 está escrito con    
-
 saltos de línea  
 
 ### Insertar imagenes
