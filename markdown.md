@@ -1,58 +1,132 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Ejercicio 1: mostrar al usuario su horoscopo chino segun su anho de nacimiento.
+Ejercicio 2: mostrar un saludo a 4 personas una vez introducidos sus nombres.
 
 ## Tabla de contenido
-
-Generar Índice en Markdown 
+1. Ejercicio 1
+2. Ejercicio 2
+ 
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
-
+Ejercicio 1: Horoscopo chino
+Ejercicio 2: Saludo a 4 personas 
+Posible ejercicio 3: python
+Posible ejercicio 4: php
+Posible ejercicio 5: .NET
 ### Cursivas
 
-Frase en cursiva 
+*Java mola!* 
 
 ### Negrilla
 
-Frase en negrita
+**Java mola!**
 
 ### Vinetas
 
-Lista numerada
-Lista no numerada
+1.Ejercicio 1
+2.Ejercicio 2
+
+- Ejercicio 1
+- Ejercicio 2
+
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Ejercicio 1
+
+Ejercicio 2
+Probando hacer un  
+salto de linea 
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![Pajarito](/home/sanclemente.local/a23vanessabg/Escritorio/loro.jpeg "Lorito bonito") 
 
 ### Insertar enlaces
 
-Insertar un enlace 
+[navegador](https:/google.es/)
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[quiero anclar a la tabla de contenido](#Tabla de contenido)
 
 ### Insertar una linea de codigo
+Ejercicio 1:
+`import java.util.Scanner;
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+public class ejercicio1 {
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        int anhoUsuario;
+        
+        System.out.println("Voy a decirte tu signo en el horóscopo chino");
+        System.out.println("¿En qué año naciste? ");
+        anhoUsuario = teclado.nextInt();
+        int resto = anhoUsuario%12;
+
+        switch (resto) {
+            case 0:
+                System.out.println("Tu signo es Mono");
+                break;
+            case 1:
+                System.out.println("Tu signo es Gallo");
+                break;
+            case 2:
+                System.out.println("Tu signo es Perro");
+                break;
+            case 3:
+                System.out.println("Tu signo es Cerdo");
+                break;
+            case 4:
+                System.out.println("Tu signo es Rata");
+                break;
+            case 5:
+                System.out.println("Tu signo es Buey");
+                break;
+            case 6:
+                System.out.println("Tu signo es Tigre");
+                break;
+            case 7:
+                System.out.println("Tu signo es Conejo");
+                break;
+            case 8:
+                System.out.println("Tu signo es Dragón");
+                break;
+            case 9:
+                System.out.println("Tu signo es Serpiente");
+                break;
+            case 10:
+                System.out.println("Tu signo es Caballo");
+                break;
+            case 11:
+                System.out.println("Tu signo es Cabra");
+                break;
+            default:
+            System.out.println("No has introducido un número correcto");
+                break;
+        }
+
+    teclado.close();
+    }
+}`
 
 ### Insertar tablas
 
-Insertar una tabla 
+|Dia|Mes|
+|---|--------|
+|13|Noviembre|
+|14|Diciembre|
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+[editor markdown](http://writemonkey.com/download.php) 
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
+<http://writemonkey.com/download.php> 
 
