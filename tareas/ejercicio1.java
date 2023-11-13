@@ -21,3 +21,55 @@ tabla:
 11 - Cabra 
 
  */
+
+import java.util.Scanner;
+
+public class ejercicio1{
+    public static void main(String[] args) {
+        Scanner sca = new Scanner(System.in);
+        System.out.println("En que año naciste?");
+        int nacimiento = sca.nextInt();
+        int resto = nacimiento%12;
+        
+        switch(resto){
+            case 0:
+                System.out.println("tu signo zodiacal chino es un mono");
+                break;
+            case 1:
+                System.out.println("tu signo zodiacal chino es un gallo");
+                break;
+            case 2:
+                System.out.println("tu signo zodiacal chino es un perro");
+                break;
+            case 3:
+                System.out.println("tu signo zodiacal chino es un cerdo");
+                break;
+            case 4: 
+                System.out.println("tu signo zodiacal chino es una rata");
+                break;
+            case 5:
+                System.out.println("tu signo zodiacal chino es un buey");
+                break;
+            case 6:
+                System.out.println("tu signo zodiacal chino es un tigre");
+                break;
+            case 7:
+                System.out.println("tu signo zodiacal chino es un conejo");
+                break;
+            case 8:
+                System.out.println("tu signo zodiacal chino es un dragon");
+                break;
+            case 9:
+                System.out.println("tu signo zodiacal chino es una serpiente");
+                break;
+            case 10:
+                System.out.println("tu signo zodiacal chino es un caballo");
+                break;
+            case 11:
+                System.out.println("tu signo zodiacal chino es una cabra");
+                break;
+
+        }
+        sca.close();
+    }
+}
