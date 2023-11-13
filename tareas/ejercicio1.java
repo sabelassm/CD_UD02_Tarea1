@@ -21,3 +21,59 @@ tabla:
 11 - Cabra 
 
  */
+
+import java.util.Scanner;
+
+public class ejercicio1 {
+    
+    public static void main(String[] args) {
+        int anho = 0;
+        int signo = 0;
+        Scanner sca = new Scanner(System.in);
+
+        System.out.println("Introduce el año en el que naciste");
+        anho = sca.nextInt();
+
+        signo = anho % 12;
+
+        if (signo == 0) {
+            System.out.println(" Tu signo es Mono");
+        }
+        if (signo == 1) {
+            System.out.println("Tu signo es Gallo");
+        }
+        if (signo == 2) {
+            System.out.println("Tu signo es Perro");
+        }
+        if (signo == 3) {
+            System.out.println("Tu signo es Cerdo");
+        }
+        if (signo == 4) {
+            System.out.println("Tu signo es Rata");
+        }
+        if (signo == 5) {
+            System.out.println("Tu signo es Buey");
+        }
+        if (signo == 6) {
+            System.out.println("Tu signo es Tigre");
+        }
+        if (signo == 7) {
+            System.out.println("Tu signo es Conejo");
+        }
+        if (signo == 8) {
+            System.out.println("Tu signo es Dragón");
+        }
+        if (signo == 9) {
+            System.out.println("Tu signo es Serpiente");
+        }
+        if (signo == 10) {
+            System.out.println("Tu signo es Caballo");
+        }
+        if (signo == 11) {
+            System.out.println("Tu signo es Cabra");
+        }
+        
+        sca.close();
+    }
+
+ }
