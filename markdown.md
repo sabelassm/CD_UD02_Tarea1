@@ -1,58 +1,92 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Aunque en realidad Markdown también se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+1. Índice 1
+2.  Índice 2
+    - Índice 3
+    - Índice 4
+        1. Índice 5
+        2. Índice 6
+
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+# nivel 1
+## nivel 2
+### nivel 3
+#### nivel 4
+##### nivel 5
+
 
 ### Cursivas
 
-Frase en cursiva 
+_Frase en cursiva_ 
+
+*Frase en cursiva*
 
 ### Negrilla
 
-Frase en negrita
+__Frase en negrita__
+
+**Frase en negrita**
 
 ### Vinetas
-
-Lista numerada
-Lista no numerada
+ #### Lista numerada
+1. Elemento de lista 1
+2.  Elemento de lista 2
+    * Elemento de lista 3
+    * Elemento de lista 4
+        1. Elemento de lista 5
+        2. Elemento de lista 6
+#### Lista no numerada
+- Elemento de lista 1
+- Elemento de lista 2
+    - Elemento de lista 3
+    - Elemento de lista 4
+        - Elemento de lista 5
+        - Elemento de lista 6
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+«Vou correndo pola chuvia,
+sin mollarme
+bailando unha cumbia»
 
 ### Insertar imagenes
 
-Insertar una imagen 
+![perro](/perro.jpg)
 
 ### Insertar enlaces
 
-Insertar un enlace 
+<http://www.iessanclemente.net>
 
 ### Hacer anclaje
 
-Anclar el apartado de tablas 
+[Anclao](#Todo_queda_anclao)
 
 ### Insertar una linea de codigo
 
-Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
+`for(int i =0;i<array.length;i++){int pedirArray=sca.nextInt();array[i]=pedirArray;}}`
 
 ### Insertar tablas
 
-Insertar una tabla 
+| TITULO1| TITULO2|
+| ----- | ---- |
+| CONTENIDO COLUMNA 1 | CONTENIDO COLUMNA 2 |
 
 ### Editores en Markdown 
 
-Enlaces a editores en Markdown 
+<https://mark.reaper.im/>
 
 ### Otras referencias sobre Markdown
 
-Referencias sobre markdown 
+<http://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo>
+
+<https://help.github.com/articles/markdown-basics>
+
+
 
